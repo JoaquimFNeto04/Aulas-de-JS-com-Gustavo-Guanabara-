@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa</title>
+</head>
+
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>
+ Teste de informação o n1 = ${n1};
+    </p>
+</body>
+
+<!-- DE PREFERENCIA A COLOCAR O SCRIPT JAVA NO FINAL-->
+<script>
+/* para converter eu posso usar o parseInt para inteiro e o parseFloat para floar porém nas novas versões do java, basta colocar Number que o proprio navegador vai decidir se é float ou int de acordo com o que receber. */
+    var n1 = parseInt(prompt('Digite um número !'));
+    var n2 = parseInt(prompt('Digite outro número !'));
+    var s = n1 + n2;
+    alert('a soma dos dois é = ' + s);
+    var n3 = Number(prompt('Digite um 3º !')); 
+    var n4 = Number(prompt('Digite o 4º número !'));
+    var s2 = n3 + n4;
+    alert(`a soma de ${n3} e ${n4} é igual a ${s2}`);
+</script>
+
+</html>
